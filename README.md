@@ -1,20 +1,45 @@
-# Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/UbXpRv5ApKA
+# SensAi 
+SensAi is an AI-driven platform designed to empower users in their career journey by providing profession-centric tools such as resume building, personalized cover letter generation, mock interview simulations, and real-time industry insights.
 
-![sensai](https://github.com/user-attachments/assets/eee79242-4056-4d19-b655-2873788979e1)
+# 🚀Features
+Resume Builder:
+Create ATS-optimized, profession-tailored resumes with guided sections. Users can fill details manually and further optimize the content using AI suggestions powered by Gemini AI.
 
-### Make sure to create a `.env` file with following variables -
+Cover Letter Generator:
+Generate unique, role-specific cover letters based on job descriptions, with options for customization and personalization.
 
-```
-DATABASE_URL=
+Mock Interview Module:
+Practice profession-specific mock interviews with dynamically generated quizzes. Users receive real-time hints, AI-powered feedback, and can track their performance and improvement over time.
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+Interactive Dashboard & Industry Insights:
+Access weekly-updated insights on trending skills, job market trends, and salary ranges. Visualized through dynamic, interactive charts.
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+User Authentication & Onboarding:
+Seamless sign-up and login experience using Clerk authentication, supporting Google and email/password methods. Personalized onboarding captures industry, skills, and experience to tailor user experience.
 
-GEMINI_API_KEY=
-```
+# 🛠 Tech Stack
+Frontend:
+
+Next.js (React Framework)
+
+Tailwind CSS (Styling)
+
+Shadcn/UI (Pre-built React components)
+
+Backend:
+
+Next.js API Routes (Server-side logic)
+
+Clerk (Authentication and user management)
+
+AI Integration:
+
+Gemini AI (for resume generation, content optimization, cover letters, mock interview questions, and feedback)
+
+Database:
+
+PostgreSQL (for storing user data, resumes, cover letters, interview progress)
+
+Visualization:
+
+Recharts (for dashboard charts and progress tracking)
